@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background-color: bisque;
+}
+.contacts-main form{
+  display: flex;
+  flex-direction: column;
+  
+}
+.contacts-main form input{
+margin: 0px 30px 10px 30px;
+height: 30px;
+}
+.contacts-main {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  background-color: burlywood;
+}
+.contacts-main form button {
+  width: 60px;
+  float: right;
+  margin: auto;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgb(10, 207, 10);
+  height: 25px;
+  width: 80px;
+  color: rgba(255, 255, 255, 0.815);
+  font-size: 12px;
+}
+.contacts-list {
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.377);
+  width: 85%;
+  margin: auto;
+}
+.contacts-list li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+  
+}
+.delete-button {
+  background-color: red;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.form-property {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  font-size: 12px;
+}
+.form-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ .delete-all {
+  background-color: red !important;
+  cursor: pointer;
+}
+
+.edit a{
+  cursor: pointer;
+  text-decoration: none;
+  background-color:rgb(80, 218, 80);
+  color: white;
+  padding: 10px;
+}
